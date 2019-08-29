@@ -88,7 +88,8 @@ main {
 }
 
 #poster {
-  padding:50px;
+  margin-top:80px;
+  padding:20px;
   background-color: #897c6b;
   @media(max-width:800px){
     padding:10px;
@@ -102,7 +103,7 @@ main {
 
   a:hover {
     text-decoration: none;
-    color: #ff4f0d;
+    color: lighten(#ff4f0d, 10%);
   }
 
 

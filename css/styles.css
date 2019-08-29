@@ -347,7 +347,8 @@ main a {
       width: 90%; } }
 
 #poster {
-  padding: 50px;
+  margin-top: 80px;
+  padding: 20px;
   background-color: #897c6b; }
   @media (max-width: 800px) {
     #poster {
@@ -357,7 +358,7 @@ main a {
     color: #ebdcbb; }
   #poster a:hover {
     text-decoration: none;
-    color: #ff4f0d; }
+    color: #ff7440; }
   #poster #download-poster {
     text-align: center;
     letter-spacing: 1px;
