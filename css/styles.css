@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Smartphones (portrait and landscape) ----------- */
 /* Smartphones (landscape) ----------- */
 /* Smartphones (portrait) ----------- */
@@ -181,7 +182,7 @@
       border: 1px solid #ff4f0d;
       color: #ff4f0d; }
   #created_texty img {
-    max-height: 4em;
+    max-height: 3.5em;
     max-width: 90%; }
   #created_texty div {
     text-align: center; }
@@ -318,6 +319,7 @@ header {
       header #subtitle {
         width: 90%; } }
   header #credits {
+    font-weight: normal;
     text-align: right;
     width: 50%;
     max-width: 1000px;
@@ -327,6 +329,7 @@ header {
       header #credits {
         width: 90%; } }
 
+/* --- головний блок --- */
 main img {
   width: 100%;
   margin: 50px 0; }
@@ -346,6 +349,7 @@ main a {
     .textContainer {
       width: 90%; } }
 
+/* ---- постер завантажити ---*/
 #poster {
   margin-top: 80px;
   padding: 20px;
@@ -377,7 +381,7 @@ main a {
         margin: 10px auto; } }
   #poster img {
     width: 50%;
-    margin: auto 25%; }
+    margin: auto 25% 100px 25%; }
     @media (max-width: 800px) {
       #poster img {
         width: 100%;

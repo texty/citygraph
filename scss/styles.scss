@@ -49,7 +49,7 @@ header {
   }
 
   #credits {
-    //font-weight: normal;
+    font-weight: normal;
     text-align: right;
     width:50%;
     max-width:1000px;
@@ -60,6 +60,9 @@ header {
     }
   }
 }
+
+
+/* --- головний блок --- */
 
 main {
   img {
@@ -87,6 +90,9 @@ main {
   }
 }
 
+
+
+/* ---- постер завантажити ---*/
 #poster {
   margin-top:80px;
   padding:20px;
@@ -128,7 +134,7 @@ main {
 
   img {
     width:50%;
-    margin:auto 25%;
+    margin:auto 25% 100px 25%;
     @media(max-width:800px){
       width:100%;
       margin:10px auto;
