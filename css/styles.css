@@ -23,6 +23,7 @@
     #button {
       width: 90%; } }
   #button h3 {
+    color: #695c4e;
     font-size: 20px !important;
     font-family: inherit;
     font-weight: 800;
@@ -39,6 +40,7 @@
   display: flex; }
 
 #support-us {
+  color: #695c4e;
   width: auto;
   background-color: orange;
   padding: 15px;
@@ -77,7 +79,7 @@
   grid-column: 1/2; }
   @media screen and (min-width: 1824px) {
     .logo {
-      width: 250px; } }
+      width: 200px; } }
   @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
     .logo {
       width: 120px; } }
@@ -117,7 +119,7 @@
       #soc i {
         font-size: 20px; } }
     #soc i:hover {
-      color: pink; }
+      color: #ff4f0d; }
 
 #cover-picture {
   width: 100%;
@@ -176,8 +178,8 @@
     line-height: 1;
     transition: all 0.5s; }
     #created_texty i:hover {
-      border: 1px solid orangered;
-      color: orangered; }
+      border: 1px solid #ff4f0d;
+      color: #ff4f0d; }
   #created_texty img {
     max-height: 4em;
     max-width: 90%; }
@@ -300,16 +302,27 @@ header {
     max-width: 1000px;
     margin: 0 auto;
     font-size: 30px; }
+    @media (max-width: 800px) {
+      header #subtitle {
+        width: 90%; } }
   header #credits {
     text-align: right;
     width: 50%;
     max-width: 1000px;
     margin: 30px auto;
     font-size: 16px; }
+    @media (max-width: 800px) {
+      header #credits {
+        width: 90%; } }
 
 main img {
   width: 100%;
   margin: 50px 0; }
+main a {
+  text-decoration: none;
+  color: inherit;
+  padding-bottom: 2px;
+  border-bottom: 2px dashed #ff4f0d; }
 
 .textContainer {
   color: #897c6b;
@@ -317,5 +330,8 @@ main img {
   max-width: 1000px;
   margin: 0 auto;
   font-size: 20px; }
+  @media (max-width: 800px) {
+    .textContainer {
+      width: 90%; } }
 
 /*# sourceMappingURL=styles.css.map */

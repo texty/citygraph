@@ -29,6 +29,9 @@ header {
     max-width:1000px;
     margin:0 auto;
     font-size: 30px;
+    @media(max-width:800px){
+      width:90%;
+    }
   }
 
   #credits {
@@ -38,6 +41,9 @@ header {
     max-width:1000px;
     margin:30px auto;
     font-size: 16px;
+    @media(max-width:800px){
+      width:90%;
+    }
   }
 }
 
@@ -45,6 +51,13 @@ main {
   img {
     width:100%;
     margin: 50px 0;
+  }
+
+  a {
+    text-decoration: none;
+    color:inherit;
+    padding-bottom: 2px;
+    border-bottom: 2px dashed #ff4f0d;
   }
 
 }
@@ -55,6 +68,9 @@ main {
   max-width: 1000px;
   margin: 0 auto;
   font-size: 20px;
+  @media(max-width:800px){
+    width:90%;
+  }
 }
 
 
