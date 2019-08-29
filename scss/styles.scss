@@ -12,6 +12,20 @@ body {
   line-height: 1.6;
 }
 
+.desk {
+  display:block;
+  @media(max-width:800px) and (orientation:portrait){
+    display:none;
+  }
+}
+
+.mob {
+  display:none;
+  @media(max-width:800px) and (orientation:portrait){
+    display:block;
+  }
+}
+
 
 header {
   color: #897c6b;
@@ -70,6 +84,54 @@ main {
   font-size: 20px;
   @media(max-width:800px){
     width:90%;
+  }
+}
+
+#poster {
+  padding:50px;
+  background-color: #897c6b;
+  @media(max-width:800px){
+    padding:10px;
+  }
+
+
+  a {
+    text-decoration: none;
+    color: #ebdcbb;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: #ff4f0d;
+  }
+
+
+  #download-poster {
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 800;
+    padding:10px 15px;
+    width:max-content;
+    margin:50px auto;
+    color: #ebdcbb;
+    text-transform: uppercase;
+    font-size:20px;
+    border: 2px solid #ebdcbb;
+    @media(max-width:800px){
+      width:90%;
+      font-size:15px;
+      margin:10px auto;
+
+    }
+  }
+
+  img {
+    width:50%;
+    margin:auto 25%;
+    @media(max-width:800px){
+      width:100%;
+      margin:10px auto;
+    }
   }
 }
 
